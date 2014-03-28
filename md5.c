@@ -316,7 +316,7 @@ main(int argc, char *argv[])
 
   printf(1, "opening file\n");
   if((fd = open("100mb", 0)) < 0){
-    printf(1, "cat: cannot open %s\n", "100mb");
+    printf(1, "cat: cannot open %s\n", argv[1]);
     exit();
   }
   printf(1, "start md5\n");

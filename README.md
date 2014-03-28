@@ -51,6 +51,6 @@ A way to verify iappend works
  
  25B536ADED5CBA78D4FB473FB8B0A9 is the md5sum
 
-#### Check the hash value from the unix shell matches the one generate in xv6
+#### Check the hash value from the unix shell matches the one generated in xv6
 If they are equal there iappend works properly 
 ("25b5036ade0d5cba78d4fb473fb8b0a9".upcase == "25B536ADED5CBA78D4FB473FB8B0A9")

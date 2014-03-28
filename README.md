@@ -19,7 +19,7 @@ A way to verify iappend works
         100mb\
 
 
-#### Generate a large file name 100mb with random numbers (takes a while)
+#### Generate a large file named "100mb" with random numbers (takes a while)
      dd if=/dev/urandom of=100mb bs=1M count=100
       
 100+0 records in

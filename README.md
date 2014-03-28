@@ -6,8 +6,8 @@ A way to verify iappend works
     cd ~/classes/xs5460/xv6
     
 #### Get md5 files
-     wget https://github.com/amozoss/bigfile/blob/master/md5.c
-     wget https://github.com/amozoss/bigfile/blob/master/md5.h
+    wget --no-check-certificate https://raw.githubusercontent.com/amozoss/bigfile/master/md5.c
+    wget --no-check-certificate https://raw.githubusercontent.com/amozoss/bigfile/master/md5.h
 
 #### Update UPROGS in makefile
        UPROGS=\
